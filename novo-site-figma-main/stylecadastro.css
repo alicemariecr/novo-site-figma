@@ -1,0 +1,90 @@
+/* =========================
+   PÁGINA DE CADASTRO
+   ========================= */
+
+body {
+  background-image: url(praia.png);
+}
+
+body {
+    color: rgb(11, 31, 56);
+}
+
+
+/* Caixa do cadastro */
+.cadastro {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.cadastro-container {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+
+input {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+
+
+button {
+    width: 100%;
+
+    /* Espaço acima do botão */
+    margin-top: 15px;
+
+    background-color: rgb(11, 31, 56);
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cadastro button:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+.logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
