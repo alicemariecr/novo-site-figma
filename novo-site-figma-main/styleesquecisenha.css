@@ -1,0 +1,70 @@
+
+body {
+    background-image: url("praia.png");
+    color: rgb(11, 31, 56);
+}
+
+/* Caixa de recuperação de senha */
+.esqueci-senha {
+    width: 350px;
+    padding: 30px;
+    background-color: rgb(245, 244, 241);
+    margin: 80px auto;
+    border-radius: 12px;
+}
+
+/* Título */
+.esqueci-senha h1 {
+    text-align: center;
+}
+
+/* Texto explicativo */
+.esqueci-senha p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Campo de e-mail */
+.esqueci-senha input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+/* Botão de recuperar senha */
+.esqueci-senha button {
+    width: 100%;
+    margin-top: 15px;
+    background-color: rgb(11, 31, 56);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 13px 15px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+.esqueci-senha button:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Link para voltar ao login */
+.esqueci-senha a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(11, 31, 56);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.esqueci-senha a:hover {
+    text-decoration: underline;
+}
